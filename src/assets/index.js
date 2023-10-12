@@ -27,7 +27,7 @@ import nextjs from "./tech/nextjs.png";
 import pointerz from "./company/pointerz.png";
 
 
-import summarization from "./summarization.png";
+import summarization from "./Summarization.png";
 import school from "./school.png";
 import guessthenumber from "./GuessTheNumber.png";
 import portfolio from "./portfolio.png";
