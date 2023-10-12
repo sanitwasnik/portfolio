@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github, links } from "../assets";
-import { SectionWrapper } from "../hoc";
+// import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -25,7 +25,8 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl  sm:w-[360px] w-full'
+      // 
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -78,7 +79,7 @@ const ProjectCard = ({
   );
 };
 
-const Works = () => {
+const Projects = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -108,4 +109,5 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "projects");
+// export default SectionWrapper(Projects, "project");
+export default Projects; 
